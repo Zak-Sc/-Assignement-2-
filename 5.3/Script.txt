@@ -1,0 +1,7 @@
+!python sample.py  --model=RNN --optimizer=ADAM --initial_lr=0.0001 --batch_size=10 --seq_len=35 --hidden_size=1500 --num_layers=2 --dp_keep_prob=0.35 --samples --model_saved RNN_params.pt
+
+!python sample.py  --model=RNN --optimizer=ADAM --initial_lr=0.0001 --batch_size=10 --seq_len=70 --hidden_size=1500 --num_layers=2 --dp_keep_prob=0.35 --samples --model_saved RNN_params.pt
+
+!python sample.py  --model=GRU --optimizer=SGD_LR_SCHEDULE --initial_lr=10 --batch_size=10 --seq_len=35 --hidden_size=1500 --num_layers=2 --dp_keep_prob=0.35 --samples --model_saved GRU_params.pt
+
+!python sample.py  --model=GRU --optimizer=SGD_LR_SCHEDULE --initial_lr=10 --batch_size=10 --seq_len=35 --hidden_size=1500 --num_layers=2 --dp_keep_prob=0.35 --samples --model_saved GRU_params.pt
